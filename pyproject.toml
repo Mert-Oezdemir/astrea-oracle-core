@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "astrea-oracle-core"
+version = "0.1.0"
+description = "Explainable, consent-first symbolic oracle and compatibility research starter"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+authors = [{name = "Mert-Oezdemir"}]
+
+[tool.setuptools.packages.find]
+where = ["src"]
